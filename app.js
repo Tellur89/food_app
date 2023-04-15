@@ -1,12 +1,3 @@
-// const express = require('express');
-// const cors = require('cors');
-// const app = express();
-
-// MIDDLEWARE
-// app.use(cors());
-// app.use(express.json());
-//-----
-
 const list = document.querySelector('#mealsList');
 
 const url = 'https://foodapi-b64c.onrender.com/meals';
@@ -47,5 +38,3 @@ async function fetchMeals() {
 }
 
 fetchMeals();
-
-// module.exports = app;
